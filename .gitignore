@@ -1,0 +1,243 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ===== FRONTEND (React/Next.js) =====
+
+# dependencies
+/node_modules
+/frontend/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+/frontend/.next/
+/frontend/out/
+
+# production
+/build
+/frontend/build
+/dist
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# testing
+/coverage
+/frontend/coverage
+
+# ===== BACKEND (Django/Python) =====
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# Django migrations (optional - remove if you want to track them)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+postgresql/
+mysql/
+
+# ===== DEVELOPMENT TOOLS =====
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# ===== SYSTEM FILES =====
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ===== LOGS AND TEMPORARY FILES =====
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ===== AI INTEGRATION SPECIFIC =====
+
+# API Keys and secrets (extra protection)
+**/api_keys/
+**/*secret*
+**/*key*
+.secrets/
+
+# Model files (if storing locally)
+*.pkl
+*.model
+*.weights
+*.h5
+
+# Data files
+*.csv
+*.json
+/data/
+/datasets/
+
+# ===== PROJECT SPECIFIC =====
+
+# Profile pictures upload directory
+/backend/profile_pictures/
+!/backend/profile_pictures/.gitkeep
+
+# Workflow debug logs
+workflow_debug.log
+*.debug.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/cache/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Backup files
+*.bak
+*.backup
+*.old
