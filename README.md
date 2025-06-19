@@ -1,6 +1,7 @@
-# InnoFlow - AI Workflow Automation Platform
-
-![InnoFlow Logo](./frontend/public/images/logo.jpg)
+<div align="center">
+  <img src="./frontend/public/images/logo.jpg" alt="InnoFlow Logo" width="80" height="80" style="border-radius: 12px; margin-right: 20px;">
+  <h1 style="display: inline-block; vertical-align: middle; margin: 0;">InnoFlow - AI Workflow Automation Platform</h1>
+</div>
 
 InnoFlow is a comprehensive AI workflow automation platform that enables users to create, manage, and execute sophisticated AI-powered workflows through an intuitive visual interface. Built with modern technologies, InnoFlow bridges the gap between complex AI capabilities and user-friendly workflow management.
 
